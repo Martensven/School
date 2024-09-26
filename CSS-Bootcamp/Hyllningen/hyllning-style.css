@@ -6,7 +6,7 @@ body {
 }
 
 main {
-height: 160vh;
+height: 156vh;
 width: 35vw;
 box-shadow: 5px 5px 5px gray;
 display: inline-block;
@@ -51,11 +51,12 @@ footer {
     white-space: nowrap;
     height: 25%;
     box-shadow: 5px 5px 5px gray;
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
   }
   
     footer img {
-    padding-right: 7.5%;
-    padding-left: 7.5%;
-    height: 80%;
+    
+    padding-left: 7%;
+    margin-right: 7%;
+    height: 90%;
   }
