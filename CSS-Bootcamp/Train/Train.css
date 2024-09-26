@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 10px;
+    border: 10px #000000 hidden;
+    border-radius: 10px;
+    width: 340px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgb(227, 227, 227);
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display:inline-block;
+    height: 60px;
+    width: 340px;
+    border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.textbox-klass   {
+height: 40px;
+width: 340px;
+display: inline-block;
+}
+
+.klass-1 {
+        margin-right: 60px;
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 50px;
+        padding: 0px;
+        font-size: 15px;
+        color: black;
+        float: left;
+        transform-box:border-box;
+        }
+
+.klass-2 {
+            margin-right: 15px;
+            margin-left: 44px;
+            margin-top: 15px;
+            height: 50px;
+            padding: 0px;
+            font-size: 15px;
+            color: black;
+            float: left;
+            transform-box:border-box;
+            }
+
+.antal-1 { 
+font-size: 20;
+float: left;
+margin: 0px;
+padding-left: 15px;
+text-align: left;
+}
+
+.Titel{
+   float: right;
+   margin-right: 15px;
+   padding-right: 0px;
+   text-align: left;
+}
+
+select {
+    width: 140px;
+    height: 40px;
+    margin: 0px;
+}
+
+.name {
+     display: block;
+     width: 340px;
+     height: 50px;
+     float: left;
+     text-align: left;
+     margin-left: 15px;
+     margin-right: 15px;
+}
+
+.text {
+width: 305px;
+height: 25px;
+margin-right: 15px;
+text-align: left;
+}
+
+.textbox    {
+    border-color:black;
+    width: 340px;
+    height: 500px;
+    display:inline-block;
+    
+}
+
+.textbox-11 {
+    width: 340px;
+    height: 50px;
+    display: inline-flex;
+    background-color: rgb(241, 241, 241);
+}
+
+.textbox-1  {
+    padding-top: 3%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    background-color: rgb(241, 241, 241);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0;
+    transform-box:border-box;
+    
+    
+}
+
+.textbox-2  {
+    padding-top: 3%;
+    padding-left: 7.5%;
+    padding-right: 7%;
+    background-color: rgb(241, 241, 241);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0;
+    transform-box:border-box;
+    
+    
+}
+
+p {
+    font-size: 10px;
+    color: gray;
+    height: 5px;
+    width: 80px;
+    line-height: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: left;
+    float: left;
+}
+
+a.active   {
+    background-color: rgb(230, 230, 230);
+    color: rgb(0, 0, 0);  
+    transform-box:border-box;
+}
+
+.textbox-1:hover  {
+    color: black;
+    background-color: white;
+}
+
+.textbox-2:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.check {
+    
+    width: 340px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.submit {
+display: block;
+width: 300px;
+height: 50px;
+margin-left: 15px;
+color: white;
+background-color: black;
+}
+
+.submit:hover {
+background-color: darkgray;
+color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}

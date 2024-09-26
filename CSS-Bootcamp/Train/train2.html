@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka tåg</title>
+    <link rel="stylesheet" href="Train.css">
+</head>
+<body bgcolor="#F1F1F1">
+    <Main>
+    <section class="textbox">
+    <h1 class="header">
+        ÅKA TÅG
+    </h1>
+    <form action="train2.html" method="get">
+    <section class="textbox-11">
+    <section class="textbox-1">
+        <strong>
+            <a href="Train.html">Stockholm</a>
+        </strong>
+    </section>
+        
+    <section class="textbox-2">
+        <strong>
+            <a class="active" href="Train2.html">Göteborg</a>
+            <input type="hidden" value="Göteborg">
+        </strong>
+    </section>
+</section>
+    <br>
+    
+        <section class="textbox-klass">
+            
+                <section class="klass-1">
+                    <input type="radio" id="klass2" name="klass" required>
+                    <label for="klass2">2:a klass</label>
+                </section>
+                <section class="klass-2">
+                
+                    <input type="radio" id="klass1" name="klass" required>
+                    <label for="klass1">1:a klass</label>
+                </section>
+            
+    </section>
+            
+        
+                <section class="antal-1">
+                    <label for="biljetter">Antal biljetter</label>
+                    <br>
+                    <select class="Titel select" name="biljetter" id="biljetter">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </section>
+
+                <Section class="Titel">
+                    <label for="titel">Titel</label>
+                    <br>
+                    <select name="titel" id="titel">
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Dr.">Dr.</option>
+                    </select>
+                    <br><br>
+                </Section>
+                
+                <section class="name">
+                    <label for="fnamn">Förnamn</label>
+                    <br>
+                    <input class="text" type="text" id="fnamn" name="fnamn">
+                </section>
+                <section class="name">
+                    <label for="lnamn">Efternamn</label>
+                    <br>
+                    <input class="text" type="text" id="lname" name="lname"><br>
+                </section>
+            
+            <br><br><br><br><br><br><br><br><br><br><br>
+                
+
+                
+                
+                <section class="check">
+                    <input type="checkbox" id="villkor" name="villkor" required>
+                    <label for="villkor">Godkänner villkor</label>
+                </section>
+                <section >
+                    <input class="submit" type="submit" id="submit" name="submit" value="Boka biljetter">
+                </section>
+    </form>
+            
+            
+        </Main>
+</body>
+</html>

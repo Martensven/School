@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: beige;
+}
+
+.header {
+    font-family: Arial;
+    color: beige;
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(58, 58, 58);
+    color: beige;
+    padding: 10px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-decoration-line: black;
+    
+
+}
+
+
+nav {
+    text-align: right;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 15px;
+        
+}
+
+.projects {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(58, 58, 58);
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.text {
+    display: inline-block;
+text-align: center;
+box-sizing: border-box;
+overflow: hidden;
+color: beige;
+background-color: rgb(77, 77, 77);
+width: 500px;
+height: 12vh;
+padding: 45px 90px;
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: black 1px 1px 1px;
+}
+
+.text:hover {
+    text-decoration: none;
+    box-shadow: beige 1px 1px 1px;
+    
+}
+
+footer  {
+    font-family: Arial;
+    color: beige;
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    height: 5vh;
+    position: sticky;
+    bottom: 0px;
+}
