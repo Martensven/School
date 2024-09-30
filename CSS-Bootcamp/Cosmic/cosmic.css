@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: orange;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+
+Main {
+    background-color: skyblue;
+    height: 100%;
+
+}
+
+.footer {
+    background-color: orange;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    height: 10%;
+    justify-content: space-around;
+    background-color: green;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    
+}
+
+.foot1 {
+    background-color: red;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.foot2 {
+    background-color: blue;
+    justify-content: flex-end;
+    padding: 5%;
+}
+
+a {
+    text-decoration: none;
+}
