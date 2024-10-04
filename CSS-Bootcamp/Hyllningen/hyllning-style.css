@@ -95,5 +95,8 @@ footer {
         height: 220px;
     }
     
+    footer {
+        width: fit-content;
+    }
     
 }
