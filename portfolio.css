@@ -6,7 +6,9 @@
 
 body {
     background-color: rgb(40, 40, 40);
-    
+    width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 a {
@@ -22,46 +24,48 @@ a:hover {
 }
 
 .header {
+    display: inline-flex;
     font-family: Arial;
     color: beige;
     background-color: rgb(58, 58, 58);
     width: 100%;
-    height: 5vh;
+    height: 10%;
     position: sticky;
     top: 0px;
+    
 }
 
 .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     text-align: left;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
     background-color: rgb(58, 58, 58);
     color: beige;
     padding: 10px;
     padding-top: 15px;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
     text-decoration-line: black;
-    
-
+    width: 20%;
 }
 
 
 nav {
-    text-align: right;
+    background-color: rgb(58, 58, 58);
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     padding-top: 15px;
-        
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .projects {
     height: 100px;
-    width: 200px;
+    width: 20%;
     background-color: rgb(58, 58, 58);
     text-align: center;
     display: inline-block;
@@ -77,18 +81,19 @@ nav {
     overflow: hidden;
     color: beige;
     background-color: rgb(77, 77, 77);
-    width: 500px;
+    width: 40%;
     height: 12vh;
     padding: 45px 90px;
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: black 1px 1px 1px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    /* Denna styr alla rutor med projekt i */
 }
 
 .text:hover {
     text-decoration: none;
     box-shadow: beige 1px 1px 1px;
-    
 }
 
 footer  {
@@ -96,7 +101,25 @@ footer  {
     color: beige;
     background-color: rgb(58, 58, 58);
     width: 100%;
-    height: 5vh;
+    height: 20%;
     position: sticky;
     bottom: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .text {
+        width: 90%;
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    .header {
+        font-size: smaller;
+        width: 100%;
+    }
+
+
 }
