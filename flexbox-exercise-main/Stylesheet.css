@@ -1,0 +1,169 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web';
+}
+
+main {
+    background-color: white;
+    width: 25%;
+    height: 80%;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 33%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 0px 0px;
+   
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+
+
+p {
+    color: gray;
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.note {
+    background-color: rgb(172, 172, 172);
+    border-radius: 100%;
+    border: hidden;
+    box-sizing: border-box;
+    width: 15%;
+    height: 50%;
+    object-fit: scale-down;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.annual {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.annual-1 {
+    font-weight: bolder;
+    color: black;
+    font-size: 22px;
+}
+
+.dollar {
+    font-size: 22px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+.proceed {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 13.5%;
+    outline: none;
+    margin: 0;
+    border-radius: 15px;
+}
+
+.proceed:hover{
+    animation-name: button-1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.cancel {
+    background-color: white;
+    border: hidden;
+    color: gray;
+    width: 80%;
+    height: 10%;
+    outline: none;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+.cancel:hover {
+    animation-name: button-2;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+a {
+    font-size: 20px;
+}
+
+@keyframes button-1 {
+    from {background-color: blueviolet}
+    to {background-color: red;}
+}
+
+@keyframes button-2 {
+        from {transform:rotate(0deg);}
+        to {transform:rotate(360deg);}   
+}
