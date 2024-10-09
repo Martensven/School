@@ -195,4 +195,8 @@ a {
     header {
         border-radius: 0;
     }
+
+    .cancel {
+        font-size: x-small;
+    }
 }
