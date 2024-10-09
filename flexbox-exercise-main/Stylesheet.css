@@ -133,6 +133,7 @@ nav {
     width: 80%;
     height: 13.5%;
     outline: none;
+    border: none;
     margin: 0;
     border-radius: 15px;
 }
@@ -196,7 +197,7 @@ a {
     .main {
         border-radius: 0;
     }
-    
+
     header {
         border-radius: 0;
     }

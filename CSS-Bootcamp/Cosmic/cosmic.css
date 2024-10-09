@@ -118,7 +118,7 @@ header {
 
 .bottom-right > img {
     height: 95%;
-    width: 100%;
+    width: fit-content;
     display: flex;
     margin: 5px;
     border: hidden;
