@@ -140,6 +140,7 @@ a {
 
     .bottom-right {
         width: 100%;
+        height: fit-content;
     }
 }
 
