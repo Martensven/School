@@ -43,7 +43,7 @@ header {
     animation-name: rickroll;
     animation-timing-function: linear;
     animation-duration: 1s;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
    
 }
