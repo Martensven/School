@@ -139,6 +139,10 @@ a {
         font-size: 10px;
     }
 
+    h3 {
+        width: fit-content;
+    }
+
     .bottom-right {
         height: 20%;
     }
