@@ -159,7 +159,7 @@ nav {
 .cancel:hover {
     animation-name: button-2;
     animation-iteration-count: infinite;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-timing-function: linear;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -175,7 +175,7 @@ a {
 
 @keyframes button-2 {
         from {transform:rotate(0deg);}
-        to {transform:rotate(360deg);}   
+        to {transform:rotate(360deg);}     
 }
 
 @keyframes rickroll {

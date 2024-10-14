@@ -157,12 +157,12 @@ a {
 
     .right {
         order: 2;
-    
+        flex-grow: 1;
     }
 
     .left {
         order: 1;
-    
+        flex-grow: 1;
     }
 
     .bottom-right {

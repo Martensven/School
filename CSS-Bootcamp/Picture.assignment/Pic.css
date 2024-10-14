@@ -1,0 +1,36 @@
+body , html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    box-sizing: border-box;
+
+}
+
+picture:hover {
+    animation-name: spin;
+    animation-duration: infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes blink {
+    from {box-shadow: 10px 5px 10px 10px rgb(234, 255, 0);}
+    to {box-shadow: 5px 10px 10px 10px rgb(255, 0, 0);}
+}
+

@@ -1,14 +1,19 @@
-* {
+body, html {
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    display: flex;
+    flex-flow: column;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-body {
-    background-color: rgb(40, 40, 40);
-    width: 100%;
-    display: flex;
-    flex-flow: column;
+.about {
+    height: 100vh;
+}
+
+.contact {
+    height: 100vh;
 }
 
 a {
@@ -29,21 +34,20 @@ a:hover {
     color: beige;
     background-color: rgb(58, 58, 58);
     width: 100%;
-    height: 10%;
+    height: 5vh;
     position: sticky;
     top: 0px;
-    
+    font-size: x-large;
 }
 
 .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: center;
     text-align: left;
     background-color: rgb(58, 58, 58);
-    color: beige;
-    padding: 10px;
-    padding-top: 15px;
+    color: beige;   
     text-decoration-line: black;
     width: 20%;
 }
@@ -52,15 +56,12 @@ a:hover {
 nav {
     background-color: rgb(58, 58, 58);
     text-decoration: none;
-    padding: 15px;
-    padding-top: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    
 }
 
 .projects {
@@ -75,7 +76,9 @@ nav {
 }
 
 .text {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
@@ -101,23 +104,30 @@ footer  {
     color: beige;
     background-color: rgb(58, 58, 58);
     width: 100%;
-    height: 20%;
+    height: 5vh;
     position: sticky;
     bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 
 @media screen and (max-width: 800px) {
     
     .text {
         width: 90%;
+        font-size: small;
     }
 
     main {
         width: 100%;
+        height: 100%;
+        font-size: smaller;
     }
     
     .header {
-        font-size: smaller;
+        font-size: 1vh;
         width: 100%;
     }
 
