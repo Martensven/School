@@ -1,21 +1,29 @@
 body, html {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+.dropdown > label {
+  cursor: pointer;
 }
-
-head {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: lavender;
-    color: black;
-    height: 20%;
-    width: 100%;
+.dropdown #menu-toggle {
+  display: none;
 }
+.dropdown .menu {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  transform: translateY(-10px);
+  background-color: #222;
+  width: 20%;
+  height: 20%;
+}
+.dropdown #menu-toggle:checked + .menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}/*# sourceMappingURL=recipe.css.map */
