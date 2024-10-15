@@ -42,7 +42,7 @@ nav {
 
     .menu {
       position: absolute;
-      right: 10%;
+      left: 15vw;
       top: 1%;
       opacity: 0;
       pointer-events: none;
@@ -61,12 +61,13 @@ nav {
       display: flex;
       flex-flow: column nowrap;
       position: relative;
-      right: 10%;
+      right: 15vw;
       background-color: rgba(230, 230, 250, 0);
       width: fit-content;
       height: fit-content;
       padding: 1px;
       // Styling för listan med länkar/menyval
+      
       a {
         text-decoration: underline;
         color: black;
