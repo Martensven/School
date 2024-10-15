@@ -42,7 +42,7 @@ nav {
 
     .menu {
       position: absolute;
-      right: 5%;
+      right: 10%;
       top: 1%;
       opacity: 0;
       pointer-events: none;
@@ -61,7 +61,7 @@ nav {
       display: flex;
       flex-flow: column nowrap;
       position: relative;
-      right: 5%;
+      right: 10%;
       background-color: rgba(230, 230, 250, 0);
       width: fit-content;
       height: fit-content;
