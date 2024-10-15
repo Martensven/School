@@ -21,6 +21,7 @@ nav .dropdown {
   width: 10%;
   height: 100%;
   display: flex;
+  flex-flow: row-reverse nowrap;
   align-items: center;
   justify-content: center;
 }
@@ -35,15 +36,15 @@ nav .dropdown #menu-toggle {
   display: none;
 }
 nav .dropdown .menu {
-  position: absolute;
-  right: 10%;
-  top: 1%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
   transform: translateY(-10px);
   background-color: rgba(230, 230, 250, 0);
-  width: 55%;
+  width: 10%;
   height: 10%;
   text-align: left;
 }
@@ -75,6 +76,7 @@ nav .logo {
   height: 100%;
   text-align: center;
   align-items: center;
+  font-weight: 1000;
 }
 
 article {
