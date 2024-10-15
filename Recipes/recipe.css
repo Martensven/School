@@ -53,7 +53,6 @@ nav .dropdown ul {
   display: flex;
   flex-flow: column nowrap;
   position: relative;
-  right: 10vw;
   background-color: rgba(230, 230, 250, 0);
   width: -moz-fit-content;
   width: fit-content;
