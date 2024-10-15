@@ -1,195 +1,67 @@
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
-  box-sizing: border-box;
-  font-family: 'Titillium Web';
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 nav {
-    height: 10%;
-    width: 100%;
-    background-color: lavender;
-    display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lavender;
 }
-
-ul {
-    list-style-type: none;
-    text-align: left;
-  }
-
-.dropdown > label {
+nav .dropdown {
+  width: 7.5%;
+  height: 100%;
+}
+nav .dropdown > label {
   cursor: pointer;
-  
+  height: 100%;
 }
-.dropdown #menu-toggle {
+nav .dropdown #menu-toggle {
   display: none;
 }
-.dropdown .menu {
-  
+nav .dropdown .menu {
+  position: absolute;
+  right: 5%;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
   transform: translateY(-10px);
-  
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: fit-content;
+  background-color: lavender;
+  width: 50%;
+  height: 8%;
+  text-align: left;
 }
-.dropdown #menu-toggle:checked + .menu {
+nav .dropdown ul {
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-flow: column nowrap;
+}
+nav .dropdown ul a {
+  text-decoration: none;
+}
+nav .dropdown ul a:hover {
+  text-decoration: underline;
+}
+nav .dropdown #menu-toggle:checked + .menu {
   opacity: 1;
   transform: translateY(0);
   pointer-events: all;
+}
+nav .logo {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+article h1 {
   display: flex;
   justify-content: center;
-  background-color: lavender;
+  align-items: center;
+  text-align: center;
 }/*# sourceMappingURL=recipe.css.map */
-
-ul {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-    padding-right: 5%;
-}
-
-label {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-    padding-top: 15px;
-    font-size: 20px;
-    width: 50%
-}
-
-article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10%;
-    border: solid white;
-}
-
-.header {
-    display: none;
-}
-
-.Logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    border: solid black;
-    width: fit-content;
-}
-
-
-@media screen and (min-width:800px) 
-{
-    nav {
-        height: 10%;
-        width: 100%;
-        background-color: lavender;
-    }
-    
-    ul {
-        list-style-type: none;
-        text-align: left;
-      }
-    
-    .dropdown > label {
-      cursor: pointer;
-      
-    }
-    .dropdown #menu-toggle {
-      display: none;
-    }
-    .dropdown .menu {
-      
-      opacity: 0;
-      pointer-events: none;
-      transition: all 0.3s;
-      transform: translateY(-10px);
-      width: 100%;
-      list-style-type: none;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      height: fit-content;
-    }
-    .dropdown #menu-toggle:checked + .menu {
-      opacity: 1;
-      transform: translateY(0);
-      pointer-events: all;
-      display: flex;
-      justify-content: center;
-      background-color: lavender;
-      width: 100%;
-    }/*# sourceMappingURL=recipe.css.map */
-    
-    ul {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-        padding: 0;
-        margin: 0;
-        font-size: 50px;
-        padding-right: 50px;
-    }
-    
-    label {
-        display: none;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 10px;
-        font-size: 50px;
-    }
-    
-    article {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 50px;
-        margin-top: 10%;
-    }
-    
-    .header {
-        display: flex;
-        justify-content: flex-end;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 50px;
-        border: solid black;
-        width: 100%;
-    }    
-
-    .Logo {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        border: solid black;
-        width: 20%;
-    }
-}
-
