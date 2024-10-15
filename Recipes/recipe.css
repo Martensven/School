@@ -42,7 +42,7 @@ nav .dropdown .menu {
   pointer-events: none;
   transition: all 0.3s;
   transform: translateY(-10px);
-  background-color: lavender;
+  background-color: rgba(230, 230, 250, 0);
   width: 55%;
   height: 10%;
   text-align: left;
@@ -64,9 +64,6 @@ nav .dropdown ul {
 nav .dropdown ul a {
   text-decoration: underline;
   color: black;
-}
-nav .dropdown ul a:hover {
-  text-decoration: underline;
 }
 nav .dropdown #menu-toggle:checked + .menu {
   opacity: 1;

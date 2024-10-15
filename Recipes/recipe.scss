@@ -5,6 +5,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: monospace;
+  // Övergripande styling för hela dokumentet
 }
 
 nav {
@@ -16,6 +17,7 @@ nav {
   position: sticky;
   top: 0px;
   padding: 3%;
+  // Styling för headern
 
   .dropdown {
     width: 10%;
@@ -23,6 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    // Övergripande styling för hela menyn
 
     >label {
       cursor: pointer;
@@ -30,6 +33,7 @@ nav {
       display: flex;
       align-self: center;
       font-size: xx-large;
+      // Styling för meny-symbolen
     }
 
     #menu-toggle {
@@ -44,10 +48,11 @@ nav {
       pointer-events: none;
       transition: all 0.3s;
       transform: translateY(-10px);
-      background-color: lavender;
+      background-color: rgba(230, 230, 250, 0);
       width: 55%;
       height: 10%;
       text-align: left;
+      // Styling för rutan som kommer ner när man klickar på meny-symbolen
     }
 
     ul {
@@ -61,15 +66,12 @@ nav {
       width: fit-content;
       height: fit-content;
       padding: 1px;
+      // Styling för listan med länkar/menyval
       a {
         text-decoration: underline;
         color: black;
       }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
+      // Bestämmer styling för länkar/menyval
     }
 
     #menu-toggle:checked+.menu {
@@ -77,6 +79,7 @@ nav {
       transform: translateY(0);
       pointer-events: all;
     }
+    // Detta gör så att listan visas när man trycker på meny-symbolen
   }
 
   .logo {
@@ -87,6 +90,8 @@ nav {
     align-items: center;
   }
 }
+//Logga som kommer att funka som en "hem-knapp"
+
 
 article {
   display: flex;
@@ -102,6 +107,7 @@ article {
     height: 50%;
   }
 }
+//En liten text med sidans innehåll 
 
 footer {
   position: sticky;
@@ -113,3 +119,4 @@ footer {
   align-items: center;
  
 }
+// footern till sidan
