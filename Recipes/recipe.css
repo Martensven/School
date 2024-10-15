@@ -36,7 +36,7 @@ nav .dropdown #menu-toggle {
 nav .dropdown .menu {
   position: absolute;
   right: 5%;
-  top: 4%;
+  top: 0;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
@@ -61,7 +61,8 @@ nav .dropdown ul {
   padding: 1px;
 }
 nav .dropdown ul a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: black;
 }
 nav .dropdown ul a:hover {
   text-decoration: underline;

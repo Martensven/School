@@ -38,7 +38,7 @@ nav {
     .menu {
       position: absolute;
       right: 5%;
-      top: 4%;
+      top: 0;
       opacity: 0;
       pointer-events: none;
       transition: all 0.3s;
@@ -61,7 +61,8 @@ nav {
       height: fit-content;
       padding: 1px;
       a {
-        text-decoration: none;
+        text-decoration: underline;
+        color: black;
       }
 
       a:hover {
