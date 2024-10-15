@@ -43,27 +43,31 @@ nav .dropdown .menu {
   pointer-events: none;
   transition: all 0.3s;
   transform: translateY(-10px);
-  background-color: rgba(230, 230, 250, 0);
+  background-color: lavender;
   width: 10%;
   height: 10%;
+  margin-right: 5%;
   text-align: left;
 }
-nav .dropdown ul {
+nav .dropdown .menu ul {
   list-style-type: none;
   text-align: left;
   display: flex;
   flex-flow: column nowrap;
   position: relative;
-  background-color: rgba(230, 230, 250, 0);
   width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 1px;
 }
-nav .dropdown ul a {
+nav .dropdown .menu ul a {
   text-decoration: underline;
   color: black;
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-sizing: content-box;
+  padding: 10%;
+  padding-right: 20%;
+  text-align: left;
 }
 nav .dropdown #menu-toggle:checked + .menu {
   opacity: 1;
