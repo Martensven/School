@@ -24,7 +24,24 @@ function greet () {
     let input = document.getElementById("userName").value
     let firstName = input; 
     document.getElementById("welcome").innerHTML = "Välkommen " + firstName + "!";
-    // console.log("Hej " + firstName);
+    console.log("Hej " + firstName);
+}
+
+
+
+function count () {
+    let input1 = document.getElementById("tal1").value;
+    let input2 = document.getElementById("tal2").value;
+    let tal1 = Number(input1);
+    let tal2 = Number(input2);
+    let summa = tal1 + tal2;
+    let diff = tal1 - tal2;
+    let produkt = tal1 * tal2;
+    document.getElementById("slutsumma").innerHTML = "Addition: " + tal1 + " + " + tal2 + " = " + summa;
+    document.getElementById("diff").innerHTML = "Subtraktion: " + tal1 + " - " + tal2 + " = " + diff;
+    document.getElementById("produkt").innerHTML = "Multiplikation: " + tal1 + " * " + tal2 + " = " + produkt;
+    // console.log(+ tal1 + + tal2);
+    
 }
 
 
