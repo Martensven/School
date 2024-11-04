@@ -1,0 +1,36 @@
+START
+knockOutNumber = INPUT väljNummer [6, 7, 8, 9];
+
+SET totalPoäng = 0
+SET Antalkast = 0
+
+LOOP 
+RANDOM tärning_1 1 to 6
+RANDOM tärning_2 1 to 6
+tärning_1 + tärning_2 = tärningsKast
+SET Antalkast +1
+
+IF tärningsKast != knockOutNummer
+THEN SET totalPoäng +tärningsKast
+
+ELSE IF tärningsKast = knockOutNummer
+THEN SET totalPoäng  - tärningsKast
+
+IF Antalkast = 10
+THEN ENDLOOP
+
+PRINT "Du fick " + totalPoäng + "poäng!"
+
+Starta spelet
+Välj ett Knockoutnummer som är 6, 7, 8, 9
+
+Du börjar på 0 poäng och du har inte kastat tärnignen ännu.
+
+Upprepa nedan:
+Du kastar två tärningar
+Lägg sedan till totala poängen från de två tärningarna till din poängtotal.
+
+Annars, om poängen från de två tärningarna blir lika med ditt Knockoutnummer
+Ta bort lika många poäng från din poängtotal.
+
+Spelet slutar när du har kastat tärningarna 10 gånger

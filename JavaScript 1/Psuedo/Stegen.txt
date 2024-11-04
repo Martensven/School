@@ -1,0 +1,17 @@
+START
+SET Antalkast = 0
+SET Mål = 1
+
+
+RANDOM tärningsKast 1 to 6
+SET Antalkast +1
+
+IF tärningsKast = Mål
+THEN SET Mål +1
+
+ELSE LOOP THROUGH Mål AND tärningsKast = 6 
+THEN ENDLOOP
+
+PRINT "Grattis, du klarade det på " + Antalkast + "!"
+
+END

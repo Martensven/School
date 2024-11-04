@@ -1,0 +1,33 @@
+START
+
+SET totalPoäng = 0
+
+RANDOM tärning_1
+RANDOM tärning_2
+RANDOM tärning_3
+
+IF tärning_1 > tärning_2 AND tärning_3
+Then SET totalPoäng +tärning_1
+
+IF tärning_2 > tärning_1 AND tärning_3
+Then SET totalPoäng +tärning_2
+
+IF tärning_3 > tärning_1 AND tärning_2
+Then SET totalPoäng +tärning_3
+
+RANDOM tärning_1
+RANDOM tärning_2
+
+IF tärning_1 > tärning_2
+Then SET totalPoäng +tärning_1
+
+IF tärning_2 > tärning_1
+Then SET totalPoäng +tärning_2
+
+RANDOM tärning_1
+SET totalPoäng +tärning_1
+
+PRINT "Du fick " + totalPoäng + "!"
+
+END
+

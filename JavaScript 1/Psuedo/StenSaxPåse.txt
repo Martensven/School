@@ -1,0 +1,27 @@
+START
+
+SET spelare1poäng = 0
+SET spelare2poäng = 0
+spelarVal1 = INPUT (Sten, Sax, Påse)
+spelarVal2 = INPUT (Sten, Sax, Påse)
+
+IF spelarVal1 = spelarVal2
+THEN PRINT "Nu blev det lika, era jävla sopor!"
+
+IF 
+spelarVal1 = Sten AND spelarVal2 = Sax 
+OR 
+spelarVal1 = Sax AND spelarVal2 = Påse 
+OR 
+spelarVal1 = Påse AND spelarVal2 = Sten
+THEN SET spelare1poäng +1
+
+ELSE 
+SET spelare2poäng +1
+
+IF spelare1poäng = 3
+THEN PRINT "Bra jobbat Spelare 1!"
+
+IF spelare2poäng = 3
+THEN PRINT "Bra jobbat Spelare 2!"
+

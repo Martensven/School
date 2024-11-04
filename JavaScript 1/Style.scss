@@ -2,4 +2,24 @@ HTML, body {
     margin: 0;
     padding: 0;
     background-color: bisque;
+    min-height: 100vh;
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    width: 100%;
+    padding-left: 5%;
+
+#userName {
+    width: 20%;
+}
+
+button {
+width: 20%;
+height: 5vh;
+
+}
 }
