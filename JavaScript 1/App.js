@@ -44,7 +44,21 @@ function count () {
     
 }
 
+// for (let i = 1; i < 1001; i++) {
+//     console.log("Du har " + i + " tuggummin!");
+// }
 
+
+for (let i = 100; i > 0; i--) {
+    
+
+    if (i = 1) {
+        (console.log("Du har " + i + " godis kvar!"));
+    }
+    else {  
+        (console.log("Du har " + i + " godisar kvar!"));
+    }
+}
 
 
 // greet ();
