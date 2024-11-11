@@ -20,11 +20,12 @@
 
 // Code along plusPoäng
 
+
+
 function greet () {
     let input = document.getElementById("userName").value
     let firstName = input; 
-    document.getElementById("welcome").innerHTML = "Välkommen " + firstName + "!";
-    console.log("Hej " + firstName);
+    document.getElementById("welcome").innerHTML = `Välkommen ${firstName}!`;
 }
 
 
@@ -40,45 +41,22 @@ function count () {
     document.getElementById("slutsumma").innerHTML = "Addition: " + tal1 + " + " + tal2 + " = " + summa;
     document.getElementById("diff").innerHTML = "Subtraktion: " + tal1 + " - " + tal2 + " = " + diff;
     document.getElementById("produkt").innerHTML = "Multiplikation: " + tal1 + " * " + tal2 + " = " + produkt;
-    // console.log(+ tal1 + + tal2);
-    
-}
-
-// for (let i = 1; i < 1001; i++) {
-//     console.log("Du har " + i + " tuggummin!");
-// }
-
-
-for (let i = 100; i > 0; i--) {
-    
-
-    if (i = 1) {
-        (console.log("Du har " + i + " godis kvar!"));
-    }
-    else {  
-        (console.log("Du har " + i + " godisar kvar!"));
-    }
 }
 
 
-// greet ();
+//Return
+
+function add(a, b) {
+    return a + b
+    
+}
 
 
-// let tal1 = Number(prompt("Ange ett tal"));
-// let tal2 = Number(prompt("Ange ett till tal"));
-// let tal3 = Number(prompt ("ange ett tal: "));
+console.log("Svaret är " + add(5, 10))
 
-// let summa = tal1 + tal2;
-// let diff = tal1 - tal2;
-// let produkt = tal1 * tal2;
-// let rundat = Math.round(tal3);
-// let decimal = tal3.toFixed(2);
 
-// console.log ("Summan är: " + summa);
-// console.log ("Det differensen med: " + diff);
-// console.log ("Produkten är: " + produkt);
-// console.log ("Avrundat tal blir: " + rundat)
-// console.log ("Avrundat tal till två decimaler: " + decimal)
+
+
 
 
 
