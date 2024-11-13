@@ -48,12 +48,22 @@ function count () {
 
 function add(a, b) {
     return a + b
-    
 }
-
 
 console.log("Svaret är " + add(5, 10))
 
+//Arrow
+
+const times = (c, d) => c * d; 
+
+console.log("Svaret är " + times(19, 10))
+
+
+let greetings = (firstNames, lastNames) => "Hej " + firstNames + " " + lastNames;
+
+console.log(greetings("Mårten", "Gullström Öhlin" ));
+
+    
 
 
 
